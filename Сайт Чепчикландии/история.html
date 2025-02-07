@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <style>/*  Общие стили для страницы истории  */
+
+.history-main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.history-main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.history-main p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.history-main img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 153, 0, 0.3);
+}
+
+/*  Стили для временной шкалы  */
+
+.timeline {
+    padding: 80px 0;
+}
+
+.timeline h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+
+.timeline-date {
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.timeline-content {
+    width: 80%;
+    padding-left: 20px;
+    background: #eba21cb4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.timeline-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/*  Стили для ключевых личностей  */
+
+.figures {
+    padding: 80px 0;
+}
+
+.figures h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.figures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.figure-item {
+    background: #ffae00b2;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.figure-item img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.figure-item h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.figure-item p {
+    color: #000000;
+}
+
+nav ul li a.active {
+    color: #64ffda;
+}
+</style>
+        </head>
+        <body>
+            
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История Чепчикландии</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <!-- Добавьте сюда ссылку на ваши шрифты и стили, если используете отдельные -->
+
+
+
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+            </nav>
+        </header>
+
+        <section class="history-main">
+            <h1>История Чепчикландии</h1>
+            <p>Погрузитесь в увлекательное прошлое нашей страны, от древних легенд до современных достижений.</p>
+        </section>
+
+        <section class="timeline">
+            <h2>Основные этапы</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">2147</div>
+                <div class="timeline-content">
+                    <h3>Основание Чепчикландии</h3>
+                    <p>Легендарное объединение племён и создание первого государства.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2200</div>
+                <div class="timeline-content">
+                    <h3>Эпоха Просвещения</h3>
+                    <p>Расцвет науки, искусства и философии.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2250</div>
+                <div class="timeline-content">
+                    <h3>Технологический Прорыв</h3>
+                    <p>Создание первых роботов и начало космической эры.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2300</div>
+                <div class="timeline-content">
+                    <h3>Экологическая Революция</h3>
+                    <p>Полный переход на возобновляемые источники энергии.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2347</div>
+                <div class="timeline-content">
+                    <h3>Чепчикландия Сегодня</h3>
+                    <p>Ведущая страна в области технологий и экологии.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="figures">
+            <h2>Ключевые личности</h2>
+            <div class="figures-grid">
+                <div class="figure-item">
+                    <img src="8.jpg" alt="Лидер 1">
+                    <h3>Мистер Честер</h3>
+                    <p>Человек, который подвиг людей создать Чепчикландию</p>
+                </div>
+                <div class="figure-item">
+                    <img src="7.jpg" alt="Ученый 1">
+                    <h3>Госпадин Чепчик</h3>
+                    <p>Кот золото, в честь которого названа страна, Чепчикландия.</p>
+                </div>
+                <div class="figure-item">
+                    <img src="6.jpg" alt="Художник 1">
+                    <h3>Мистрер Паджик</h3>
+                    <p>Просто Паджик.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2347 Чепчикландия. Все права защищены.</p>
+        </footer>
+    </div>
+
+
+
+            <script></script>
+        
+    
+</body>
